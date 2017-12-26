@@ -1,24 +1,25 @@
 <?xml version='1.0' encoding='utf-8'?>
 <plugin id="cordova-plugin-xminnov-rfid-reader-audio-jack" version="0.0.1" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
     <name>xminnov-UHF-RFID-reader-audio-jack</name>
-    <js-module name="xminnov-UHF-RFID-reader-audio-jack" src="www/xminnov-UHF-RFID-reader-audio-jack.js">
-        <clobbers target="cordova.plugins.xminnov-UHF-RFID-reader-audio-jack" />
+    <js-module name="Xminnovrfidreaderaudiojack" src="www/Xminnovrfidreaderaudiojack.js">
+        <clobbers target="Xminnovrfidreaderaudiojack" />
     </js-module>
     <platform name="android">
 
         <config-file parent="/*" target="res/xml/config.xml">
-            <feature name="xminnov-UHF-RFID-reader-audio-jack">
-                <param name="android-package" value="cordova-plugin-xminnov-rfid-reader-audio-jack.xminnov-UHF-RFID-reader-audio-jack" />
+            <feature name="Xminnovrfidreaderaudiojack">
+                <param name="android-package" value="com.illnino.Xminnovrfidreaderaudiojack.Xminnovrfidreaderaudiojack" />
+                <param name="onload" value="true" />
             </feature>
         </config-file>
 
         <config-file parent="/*" target="AndroidManifest.xml">
-            <uses-permission android:name="android.permission.AUDIO_RECORD"/>
+            <uses-permission android:name="android.permission.RECORD_AUDIO"/>
         </config-file>
 
         <lib-file src="src/android/libs/IvrJack.RU01.jar" arch="device" />
 
-        <source-file src="src/android/xminnov-UHF-RFID-reader-audio-jack.java" target-dir="src/cordova-plugin-xminnov-rfid-reader-audio-jack/xminnov-UHF-RFID-reader-audio-jack" />
+        <source-file src="src/android/Xminnovrfidreaderaudiojack.java" target-dir="src/com/illnino/Xminnovrfidreaderaudiojack" />
     
     </platform>
 </plugin>
