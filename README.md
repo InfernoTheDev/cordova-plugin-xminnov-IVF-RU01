@@ -1,6 +1,9 @@
-# cordova-plugin-xminnov-IVF-RU01
-1. install this plugin 
-2. How to use 
+# Cordova plugin Xminnov-IVF-RU01
+#### 1. install plugin
+``` 
+cordova plugin add cordova-plugin-xminnov-rfid-reader-audio-jack
+``` 
+#### 2. Sample code
 ```typescript
 import ...
 declare var Xminnovrfidreaderaudiojack:any
@@ -44,3 +47,4 @@ declare var Xminnovrfidreaderaudiojack:any
         }
       ) 
   })
+``` 

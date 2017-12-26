@@ -1,0 +1,25 @@
+{
+  "name": "cordova-plugin-xminnov-rfid-reader-audio-jack",
+  "version": "0.0.1",
+  "description": "",
+  "cordova": {
+    "id": "cordova-plugin-xminnov-rfid-reader-audio-jack",
+    "platforms": [
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/InfernoTheDev/cordova-plugin-xminnov-IVF-RU01.git"
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "author": "InfernoTheDev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/InfernoTheDev/cordova-plugin-xminnov-IVF-RU01/issues"
+  },
+  "homepage": "https://github.com/InfernoTheDev/cordova-plugin-xminnov-IVF-RU01#readme"
+}
